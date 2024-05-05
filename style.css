@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    list-style: none;
+}
+
+
+
+.top_container_color{
+background: #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: auto;
+display: flex;
+flex-direction: column;
+}
+
+.title_image_container{
+    display: flex;
+    align-items: end;
+    margin-right: 10rem;
+    
+    
+}
+
+
+
+.title_image_container img{
+    height: 30rem;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 11.2rem;
+    
+    
+    
+   }
+
+
+.title_image_container h1{
+    color: #f7b56d;
+    font-size: 10.625rem;
+    margin: 0 px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    
+}
+
+.title_image_container h3 {
+    color: #f7b56d;
+    font-size: 3.625rem;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    
+  } 
+    
+   
+.title_image_container:hover img{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+
+}
+
+@media (max-width : 976px){
+    .title_image_container{
+        flex-direction:column-reverse;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 5%;
+      }
+    .title_image_container img {
+        margin-top: 1%;
+        width: 100%;
+        height: auto;
+        
+    }
+    .title_image_container h1{
+        color: #f7b56d;
+        font-size: 5.625rem;
+        margin: 0 px auto 0 auto;
+        font-family: "Sacramento", cursive;
+        
+    }
+
+    .title_image_container h3 {
+        color: #f7b56d;
+        font-size: 1.625rem;
+        font-family: "Sacramento", cursive;
+        text-align: center;
+        
+      } 
+    
+
+
+  }
+
+  .card{
+    background-color: aliceblue;
+    height: 450px;
+    width: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    
+    
+}
+
+.card h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+
+
+}
+
+.card p{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+
+.hero-content-two{
+    display: flex;
+    padding: 25px;
+   background-color: aliceblue;}
+
+
+
+
+   .icons {
+    display: flex;
+    min-width: none;
+    flex-direction: row-reverse;
+    gap: 40px;
+    
+    }
+
+    li > a{
+        color: black;
+        text-decoration: none;
+        font-size: 2.2rem;
+    }
+
+/*****SKILL SECTION*****/
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #ffffff;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: #ffbf35;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+    place-items: center;
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#ffbf35 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+
+}
+.heading-text{
+
+    text-align: center;
+}
+
+.container{
+    margin-top: 0.5rem;
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7f7f9, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e7e9f1, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container h2{
+
+    color: #000000;
+    font-size: 2.625rem;
+    margin: 0 px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
