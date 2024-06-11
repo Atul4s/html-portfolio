@@ -50,7 +50,13 @@ flex-direction: column;
     color: #f7b56d;
     font-size: 3.625rem;
     font-family: "Sacramento", cursive;
-    text-align: center;
+    text-align: right;
+    
+    
+    
+   
+    
+    
     
   } 
     
@@ -89,6 +95,7 @@ flex-direction: column;
         font-family: "Sacramento", cursive;
         text-align: center;
         
+        
       } 
     
 
@@ -96,8 +103,8 @@ flex-direction: column;
   }
 
   .card{
-    background-color: aliceblue;
-    height: 450px;
+    background-color: #f0f8ff;
+    height: 350px;
     width: auto;
     border-radius: 15px;
     display: flex;
@@ -115,11 +122,17 @@ flex-direction: column;
     height: 100px;
     object-fit: cover;
     width: 100px;
+    align-items: center;
+    position: absolute;
+    transform: translate(5px,-180%);
+    border: 2px solid #f0f8ff;
+    ;
     
     
 }
 
 .card h2{
+    margin-top: 45px;
     font-weight: bold;
     font-size: 1.4rem;
 
@@ -127,6 +140,7 @@ flex-direction: column;
 }
 
 .card p{
+    margin-top: 10px;
     text-align: center;
     font-size: 0.8em;
     font-family: "Merienda", cursive;
