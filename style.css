@@ -23,6 +23,7 @@ flex-direction: column;
     margin-right: 10rem;
     
     
+    
 }
 
 
@@ -32,7 +33,7 @@ flex-direction: column;
     border-radius: 10px;
     display: flex;
     margin-top: 11.2rem;
-    
+    animation: float-animation 6s ease-in-out infinite;
     
     
    }
@@ -60,10 +61,21 @@ flex-direction: column;
     
   } 
     
+  @keyframes float-animation {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
    
-.title_image_container:hover img{
-    transform: scale(1.1);
-    transition-duration: 200ms;
+.card:hover img{
+    transform: rotate(0.5turn);
+    transition-duration: 1000ms;
 
 }
 
